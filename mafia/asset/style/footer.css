@@ -1,0 +1,92 @@
+/*========== FOOTER ==========*/
+
+.footer {
+    position: relative;
+    overflow: hidden;
+    text-align: center; /* added to center the footer elements */
+  }
+  
+  .footer .shape-big,
+  .footer .shape-small {
+    position: absolute;
+  }
+  
+  .footer .shape-big {
+    width: 400px; /* increased size */
+    height: 400px; /* increased size */
+    top: 3rem; /* adjusted position */
+    left: 50%; /* centered */
+    transform: translateX(-50%); /* centered */
+  }
+  
+  .footer .shape-small {
+    right: 50%; /* centered */
+    bottom: 3rem; /* adjusted position */
+    transform: translateX(50%); /* centered */
+  }
+  
+  .footer-container {
+    row-gap: 3rem; /* increased gap */
+    position: relative;
+    text-align: center; /* added to center the footer elements */
+  }
+  
+  .footer-logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem; /* increased gap */
+    font-size: 2.5rem; /* increased font size */
+    font-family: var(--font-semi-bold);
+    margin-bottom: 2.5rem; /* increased margin */
+    transition: .3s;
+  }
+  
+  .footer-logo i {
+    font-size: 2rem; /* increased font size */
+    font-weight: 500;
+  }
+  
+  .footer-logo:hover {
+    color: var(--first-color);
+  }
+  
+  .footer-title {
+    font-size: 2rem; /* increased font size */
+    margin-bottom: 2.5rem; /* increased margin */
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem; /* increased gap */
+  }
+  
+  .footer-link,
+  .footer-social-link {
+    color: var(--text-color);
+    transition: .3s;
+    font-size: 1.5rem; /* increased font size */
+  }
+  
+  .footer-link:hover,
+  .footer-social-link:hover {
+    color: var(--title-color);
+  }
+  
+  .footer-social {
+    display: flex;
+    column-gap: 2rem; /* increased gap */
+    justify-content: center; /* added to center the social links */
+  }
+  
+  .footer-social-link {
+    font-size: 60px; /* increased font size */
+  }
+  
+  .footer-copy {
+    display: block;
+    margin-top: 6rem; /* increased margin */
+    text-align: center;
+    font-size: 1.25rem; /* increased font size */
+    color: var(--text-color-light);
+  }
